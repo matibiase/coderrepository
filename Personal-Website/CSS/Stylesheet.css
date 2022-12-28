@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: #694D84;
+    height: 6vh;
+    
+}
+
+main {
+    margin-top: 100px;
+    height: 84vh;   
+ 
+}
+
+
+
+#img {
+    border-style: solid;
+   border-width: 20px;
+   border-radius: 10px;
+   border-color: #A2D4B9;  
+   
+}
+
+
+.space-element {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.space-element2 {
+    margin-top: 180px;
+    margin-bottom: 180px;
+
+}
+footer {
+    height: vh;
+    background-color: #3D3D3D;
+}
