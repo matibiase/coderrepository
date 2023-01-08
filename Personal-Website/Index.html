@@ -10,21 +10,28 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
     crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Chivo+Mono:wght@400;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./CSS/Stylesheet.css">
-
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <header>
-       
-        <nav class="navbar navbar-expand-lg ">
+    <header class="sticky-top shadow"> 
+        <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Projects</a>
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown bg-transparent">
+                    <button class="btn dropdown-toggle text-white" data-bs-toggle="dropdown">Projects</button>
+                    <ul class="dropdown-menu dropdown-menu-">
+                      <li><a class="dropdown-item text-dark bg-transparent" href="#">Wikipedia Project</a></li>
+                      <li><a class="dropdown-item text-dark bg-transparent" href="#">Metasc Project</a></li>
+                      <li><a class="dropdown-item text-dark bg-transparent" href="#">This Website</a></li>
+                    </ul>
                   </li>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link text-white" href="#">Resume</a>
                   </li>
@@ -32,181 +39,182 @@
                     <a class="nav-link text-white" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" target="_blank" href="./Pages/Contact.html">Contact</a>
                   </li>
                 </ul>
-                <span class="navbar-text text-white">
+                <span class="navbar-text text-white"><a name="upstairs"></a>
                   Designer of Experience
                 </span>
               </div>
             </div>
           </nav>
-
-
-        <!-- <nav class="navbar navbar-expand-lg sticky-top d-inline-flex">
-            <div class="d-flex">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Wikipedia Project</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Metasc Project</a></li>
-                        </ul>
-                      </li>
-                    <a class="nav-link active d-inline p-2 text-bg-dark" aria-current="page" href="#">Resume</a>
-                    <a class="nav-link active d-inline p-2 text-bg-dark" aria-current="page" href="#">About</a>
-                    <a class="nav-link active d-inline p-2 text-bg-dark" aria-current="page" href="#">Contact</a>
-                  </li>
-                </ul>
-            </div>
-            <div><li class="d-inline p-2 text-bg-dark">Designer of Experience</li></div>
-          </nav> -->
-        <!-- <nav class="col-4 ">
-
-            <ul class="d-flex justify-content-between align-items-center h-100" >
-                <li><a href=""></a>Projects</li>
-                <li><a href=""></a>Resume</li>
-                <li><a href=""></a>About</li>
-                <li><a href=""></a>Contact</li>
-            </ul>
-            
-        </nav> -->
-
         
-        <!-- <div class="col-3">
-            <ul class="d-flex justify-content-end align-items-center h-100">
-                <li class="nav-item">Designer of Experience</li>
-            </ul>
-        </div> -->    
     </header>
-
-    <main class="container text-start" >
+    <main id="space-element2" class="container text-start" >
         <div class="row">
-           <div class="col-6 h-auto ">
-                <h1 class="space-element">Matias Biase</h1>
-                <h4 class="space-element">Hi how are you?</h4>
+           <div class="col-sm-12 col-md-6 h-auto ">
+                <h1 id="space-element">Matias Biase</h1>
+                <h4 id="space-element">Hi how are you?</h4>
                  <p class="text-start">It is a pleasure to see you here, I would like to invite you to get to know me better. My name is Matias but I prefer to be called Mati, I studied Industrial Design, while studying I discovered a particular interest in the sensitive part of the world of design, especially in the connections between people and the experience they live thanks to design, I think in experience as the door to success in every way.</p>
                  <p class="text-start">When I was in college I started thinking about the importance of living the whole design experience, so with a partner we made a design company, halfis. It was a great experience where we learned a lot while we continued studying and I worked there almost 4 years. The best part was that we were able to apply the theory in real life and get the skills to communicate with people in the project design process, from the customer to the worker who made the product.</p>
                  <p class="text-start">Along the way I was discovering my qualities and interests. I observed that there are many problems when it is time to adopt teaching and school subjects to the new great change that technologies bring and especially to the lack of education on the management of our mental skills. It was at that time that I began to study neuroscience and educational methodologies, on my own. Finally, at this point in my life I studied Ux/Ui, motivated to find a sustainable way to produce solutions and generating that people feel motivated to continue using them with the help of experience as a main strategy.</p>
             </div>
+            <!-- it's better use margin -->
             <div class="col-2"></div>
-              <div class="col-3 d-flex justify-content-between align-items-center h-100">
-                 <img id="img" class="rounded-5" src="../Sitio_Web/Assets/IMG_1001 2.jpg " height="450px" alt="">
+            <div class="col-3 d-flex justify-content-between align-items-center h-100">
+                 <img id="img" class="rounded-5 shadow" src="../Sitio_Web/Assets/IMG_1001 2.jpg " height="450px" alt="">
+            </div>
+            <div id="space-element2"><h1><strong>Last Projects</strong></h1></div>
+
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="../Personal-Website/Assets/photo-chair-2.webp"  id="imagen-deal" alt="Image" style="max-width:100%;"></a></div>
+                  <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="../Personal-Website/Assets/photo-chair-1.webp"  id="imagen-deal" alt="Image" style="max-width:100%;"></a></div>
+                  <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="../Personal-Website/Assets/photo-chair-3.webp"  id="imagen-deal" alt="Image" style="max-width:100%;"></a></div>
+                  <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="../Personal-Website/Assets/photo-chair-4.webp"  id="imagen-deal" alt="Image" style="max-width:100%;"></a></div>
+                </div>
               </div>
-               <div class="space-element2"><h3>Last Projects</h3></div>
-              <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-                <div class="carousel-inner">
-                 <div class="carousel-item active">
-                       <img src="./Assets/photo-chair-1.webp" height="600px" alt="...">
+
+            <div id="space-element2"><h1><strong>Story Line</strong></h1></div> 
+
+            <div class="container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-9">
+                 <div class="card shadow" id="color-cards-title">
+                 <div class="card-body">
+                  <h3 class="card-title"><strong>UX/UI Design</strong></h3>
+                  <p class="card-text">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
+                </div>
+                </div>
+               </div>
+              </div>
+
+                <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-7">
+                   <div class="card shadow-sm" id="color-cards">
+                    <div class="card-body">
+                      <h4 class="card-title "><strong>Html5</strong></h4>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                   </div>
+                </div>
+              </div>
+            
+                <div class="row justify-content-center">
+                  <div class="col-sm-10 col-md-7">
+                     <div class="card shadow-sm" id="color-cards">
+                      <div class="card-body">
+                        <h4 class="card-title "><strong>UX/UI Avanzado</strong></h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
                      </div>
-                      <div class="carousel-item active">
-                        <img src="./Assets/photo-chair-2.webp" height="600px" alt="...">
-                      </div>
-                      <div class="carousel-item active">
-                        <img src="./Assets/photo-chair-3.webp" height="600px" alt="...">
-                      </div>
-                      <div class="carousel-item active">
-                        <img src="./Assets/photo-chair-4.webp" height="600px" alt="...">
-                      </div>
-                 </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon rounded-4 bg-dark" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon rounded-4 bg-dark" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
                   </div>
-            <div class="space-element2"><h3>Story Line</h3></div> 
-              <div class="space-element">
-                <div class="card w-55 bg-success">
-                <div class="card-body">
-                  <h4 class="card-title text-bg-success">UX/UI Design</h5>
-                  <p class="card-text text-bg-success">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
                 </div>
-               </div>
-              </div>
-            <div class="container-fluid">
-                <div class="card w-75">
-                    <div class="card-body">
-                      <h4 class="card-title ">Html5</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              
+                  <div class="row justify-content-center">
+                    <div class="col-sm-10 col-md-7">
+                       <div class="card shadow-sm" id="color-cards">
+                        <div class="card-body">
+                          <h4 class="card-title "><strong>UX/UI Introduction</strong></h4>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                       </div>
                     </div>
                   </div>
             </div>
-            
-            <div class="space-element">
-                <div class="card w-75">
-                    <div class="card-body">
-                      <h4 class="card-title">UX/UI Avanzado</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>   
-            </div>  
-            
-            <div class="space-element">
-                <div class="card w-75">
-                    <div class="card-body">
-                      <h4 class="card-title">UX/UI Introduction</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>   
-            </div> 
 
-            <div class="space-element">
-                <div class="card w-55 bg-success">
-                <div class="card-body">
-                  <h4 class="card-title text-bg-success">halfis</h5>
-                  <p class="card-text text-bg-success">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
-                </div>
-               </div>
-              </div>
-            <div class="container-fluid">
-                <div class="card w-75">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-9">
+                  <div class="card shadow" id="color-cards-title" >
                     <div class="card-body">
-                      <h4 class="card-title">Havita</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h3 class="card-title"><strong>halfis</strong></h3>
+                      <p class="card-text">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
                     </div>
                   </div>
-            </div>
-            
-            <div class="space-element">
-                <div class="card w-75 justify-content-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Figuretti</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>   
-            </div> 
+                </div>
+               </div>
+           </div>
 
-            <div class="space-element">
-              <div class="card w-55 bg-success">
-                <div class="card-body">
-                  <h4 class="card-title text-bg-success">Industrial Design</h5>
-                  <p class="card-text text-bg-success">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
-                </div>
-               </div>
-              </div>
-            <div class="container-fluid">
-                <div class="card w-75">
+             <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-7">
+                   <div class="card shadow-sm" id="color-cards">
                     <div class="card-body">
-                      <h4 class="card-title">Exhibition of my university project at the BID</h5>
+                      <h4 class="card-title "><strong>Havita</strong></h4>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     </div>
-                  </div>
+                   </div>
+                </div>
+              </div>
             </div>
-        </div>
+
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-sm-10 col-md-7">
+                     <div class="card shadow-sm" id="color-cards">
+                      <div class="card-body">
+                        <h4 class="card-title "><strong>Figuretti</strong></h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-9">
+                  <div class="card shadow" id="color-cards-title" >
+                    <div class="card-body">
+                      <h3 class="card-title"><strong>Industrial Design</strong></h3>
+                      <p class="card-text">La decisión de apuntar a aprender código esta dada por la importancia y la búsqueda de ser mas eficiente a la hora de diseñar, siendo así un modo de encontrar puntos claves que agilizen la proyectacion de diseño. Por otro lado no menor es una materia que quería aprender si o si.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-sm-10 col-md-7">
+                     <div class="card shadow-sm" id="color-cards">
+                      <div class="card-body">
+                        <h4 class="card-title "><strong>Exhibition of my university project at the BID</strong></h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
                 
-          
-    </main>
+      </main>
 
-    <footer class="container-fluid"></footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
-    crossorigin="anonymous"></script>
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-3 d-flex flex-column justify-content-center align-items-center"><img src="" alt=""></div>
+          <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+            <ul id="distance-top">
+              <li><a href="">mati.biasedi@gmail.com</a></li>
+              <li>City: Nuremberg 90429</li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+            <ul id="distance-top">
+              <li><a href="">Behance</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Twiter</a></li>
+            </ul>
+          </div>
+          <div class="col-3 d-flex flex-column justify-content-center align-items-center"><button type="button" class="btn btn-success"><a href="Index.html#upstairs">Go upstairs</a></button></div>
+        </div>
+
+      </footer>
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+   crossorigin="anonymous"></script>
 </body>
 </html>
